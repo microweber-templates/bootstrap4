@@ -1,0 +1,104 @@
+@import url("../../default.css");
+body {
+	background-attachment: scroll;
+	background-image: url(violin.png);
+	background-repeat: no-repeat;
+	background-position: 10% -110px;
+}
+.edit .btn.btn-primary {
+	background-color:black;
+	border-color:black;
+}
+
+.pagination li a {
+	background-color:white;
+	border-color:black;
+	color: black;
+}
+.pagination li a.active {
+	background-color:black;
+	border-color:black;
+	color: white;
+}
+
+.module-posts a.lead {
+	color: #333333;
+}
+.module-posts .portfolio-item h3 {
+	text-align:center;
+}
+.module-posts .portfolio-item h3 a {
+	color: #333333;
+}
+.module-posts .portfolio-item p {
+	color: #797979;
+	font-size: 12px;
+}
+.mw-post-list-blog .lead a {
+	color: #000;
+	font-family: "Actor", "Open Sans", sans-serif;
+}
+.portfolio-item.featured-list h3, .portfolio-item.featured-list h3 {
+	text-align:center;
+}
+.portfolio-item.featured-list h3, .portfolio-item.featured-list h3 a {
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom:15px;
+}
+.portfolio-item.featured-list .featured-post-desc {
+	margin-top:15px;
+	color: #797979;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+}
+.post-list-item-img, a.post-list-item-img {
+	background-size: 50% 50%;
+}
+.well {
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color:white;
+}
+.well .nav-pills>li>a, .well .nav>li>a {
+	color: #333333;
+}
+.well .nav-pills>li.active>a, .well .nav-pills>li.active>a:focus, .well .nav-pills>li.active>a:hover {
+	color: #fff;
+	background-color: #333333;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #F2F2F2;
+}
+#footer {
+	background-color:#222222;
+	color:white;
+}
+#footer a {
+	color:white;
+}
+#footer-top-wrapper {
+	background-color:black;
+}
+#footer-bottom {
+	min-height:30px;
+	padding-top:5px;
+}
+#footer-bottom-wrapper {
+	background-color:#222222;
+}
+#footer-bottom, #footer-bottom a {
+	font-size:11px;
+	color:#666666;
+}
+#footer-navigation {
+	padding-top:10px;
+}

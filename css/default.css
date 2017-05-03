@@ -1,0 +1,124 @@
+/* CSS Document */
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Actor:400&amp;subset=greek,latin,cyrillic-ext,latin-ext,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=greek,latin,cyrillic-ext,latin-ext,cyrillic");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=greek,latin,cyrillic-ext,latin-ext,cyrillic");
+
+ .navbar {
+	border-radius: 0px;
+}
+.navbar-nav > li > a {
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#menu {
+	background-color:#292929;
+}
+#menu .nav {
+	margin-top:5px;
+	background-color:#292929;
+}
+#menu .nav li a {
+	font-family:"Actor", Verdana, Geneva, sans-serif;
+	 
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#menu .nav a:hover {
+	color:#292929;
+	background-color: #c4c4c4;
+}
+#menu .dropdown-menu, #menu .dropdown-menu a {
+	background-color:#292929;
+	color: #c4c4c4;
+}
+#menu .dropdown-menu a.active {
+	color:#292929;
+	background-color: #c4c4c4;
+}
+.navbar-brand a {
+	color: #c4c4c4;
+}
+.navbar-nav ul li ul {
+	position:relative;
+	left:10px;
+}
+.portfolio-list-content {
+	padding:10px;
+	margin-bottom: 30px;
+	background-color: #F7F7F8;
+}
+.portfolio-list-content-img {
+	height:200px;
+	width:100%;
+	display:block;
+	background-repeat:no-repeat;
+}
+.portfolio-list-content-desc {
+	background-color: #F7F7F8;
+	padding: 25px 10px;
+	text-align:center;
+}
+.portfolio-list-content-desc a {
+	color: #333333;
+}
+.portfolio-list-content-desc h2 {
+	margin-bottom: 5px;
+	font-size: 20px;
+	letter-spacing: 0px;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* SHOP */
+
+
+.module-shop-cart-add .price {
+	margin-top:10px;
+}
+.module-shop-cart-add .mw-price {
+	font-size:18px;
+}
+
+.slide-image {
+	width: 100%;
+}
+.carousel-holder {
+	margin-bottom: 30px;
+}
+.carousel-control, .item {
+	border-radius: 4px;
+}
+.caption {
+	height: 130px;
+	overflow: hidden;
+}
+.caption h4 {
+	white-space: nowrap;
+}
+.thumbnail img {
+	width: 100%;
+}
+.ratings {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #d17581;
+}
+.thumbnail {
+	padding: 0;
+}
+.thumbnail .caption-full {
+	padding: 9px;
+	color: #333;
+}
+
+/* OTHER */
+
+.carousel-control.right, .carousel-control.left {
+	background-image:none;
+	background:none;
+}

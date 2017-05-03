@@ -1,0 +1,42 @@
+#blog-container {
+	padding-bottom:30px;
+}
+#blog-sidebar h4 {
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.navbar {
+	border-radius: 0px;
+}
+.mw-rotator .thumbnail {
+	border: none;
+}
+.product-price-holder { 
+	text-align:center;
+	padding:10px;
+}
+.portfolio-item {
+	margin-bottom: 25px;
+}
+.post-list-item-img, a.post-list-item-img {
+	display:block;
+	height:170px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+.post-content ul {
+	list-style:inside;
+}
+#content {
+	margin-top:55px;
+}
+.container {
+	margin-bottom:20px;
+}
+.navbar .container {
+	margin-bottom:0px;
+}
+#menu .container {
+	margin-bottom:0px;
+}
