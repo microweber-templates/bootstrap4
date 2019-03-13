@@ -1,19 +1,17 @@
 {
-  "name": "microweber/template-q-theme",
+  "name": "microweber/template-bootstrap4",
   "type": "microweber-template",
-  "description": "Q-Theme - Modern template for Microweber CMS.",
+  "description": "Bootstrap 4",
   "keywords": [
-    "microweber",
-    "ecommerce",
-    "modern"
+    "microweber"
   ],
-  "homepage": "https://microweber.com/q-theme",
-  "license": "Commercial",
+  "homepage": "https://microweber.com/bootstrap4",
+  "license": "MIT",
   "authors": [
     {
       "name": "MW Team",
       "email": "contacts@microweber.com"
     }
   ],
-  "target-dir": "q-theme"
+  "target-dir": "bootstrap4"
 }
