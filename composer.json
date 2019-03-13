@@ -1,0 +1,19 @@
+{
+  "name": "microweber/template-q-theme",
+  "type": "microweber-template",
+  "description": "Q-Theme - Modern template for Microweber CMS.",
+  "keywords": [
+    "microweber",
+    "ecommerce",
+    "modern"
+  ],
+  "homepage": "https://microweber.com/q-theme",
+  "license": "Commercial",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "contacts@microweber.com"
+    }
+  ],
+  "target-dir": "q-theme"
+}

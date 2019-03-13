@@ -1,0 +1,2850 @@
+@import "vars";
+
+/* *******************************************
+ ************** Section ************** *
+ ******************************************* */
+
+.section {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section.padding .container {
+  padding: 0 5%;
+}
+
+.section p,
+.section span {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 1 ************** *
+ ******************************************* */
+.section-1 {
+  /*background-image: url('../img/section-1/bg.png');*/
+  /*background-position: center top;*/
+  /*background-repeat: repeat-x;*/
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4300c4+0,4d009c+100 */
+  background: @default; /* Old browsers */
+  background: -moz-linear-gradient(top, @default 0%, @defaultGradient 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, @default 0%, @defaultGradient 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, @default 0%, @defaultGradient 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@default', endColorstr='@defaultGradient', GradientType=0); /* IE6-9 */
+
+  min-height: 100px;
+  padding: 30px 0;
+  overflow-x: hidden;
+}
+
+.section-1 h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+}
+
+.section-1 p,
+.section-1 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-1 p {
+  margin-bottom: 10px;
+}
+
+.section-1 .info-block {
+  width: 60%;
+  /*float: left;*/
+  position: relative;
+}
+
+.section-1 .mockup-block {
+  width: 40%;
+  /*float: left;*/
+  position: relative;
+  margin-top: 45px;
+}
+
+.section-1 .mockup-block img {
+  position: relative;
+}
+
+.section-1 .elements-holder {
+  margin-top: -100px;
+  display: table;
+  height: 100%;
+}
+
+.section-1 .mockup-block .mockup {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.section-1 .mockup-block .mockup {
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  /*    -webkit-animation: myMockup 55s linear infinite;
+        -moz-animation: myMockup 55s linear infinite;
+        -o-animation: myMockup 55s linear infinite;
+        animation: myMockup 55s linear infinite;*/
+}
+
+@-webkit-keyframes myMockup {
+  from {
+    -webkit-transform: rotate(-360deg) translateX(30px) rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+}
+
+@-moz-keyframes myMockup {
+  from {
+    -moz-transform: rotate(-360deg) translateX(30px) rotate(360deg);
+  }
+  to {
+    -moz-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+}
+
+@-o-keyframes myMockup {
+  from {
+    -o-transform: rotate(-360deg) translateX(30px) rotate(360deg);
+  }
+  to {
+    -o-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+}
+
+@keyframes myMockup {
+  from {
+    transform: rotate(-360deg) translateX(30px) rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+}
+
+.section-1 .mockup-block .planet {
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  -webkit-animation: myPlanet 15s linear infinite; /* Chrome, Safari 5 */
+  -moz-animation: myPlanet 15s linear infinite; /* Firefox 5-15 */
+  -o-animation: myPlanet 15s linear infinite; /* Opera 12+ */
+  animation: myPlanet 15s linear infinite; /* Chrome, Firefox 16+, IE 10+, Safari 5 */
+}
+
+@-webkit-keyframes myPlanet {
+  from {
+    -webkit-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes myPlanet {
+  from {
+    -moz-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes myPlanet {
+  from {
+    -o-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@keyframes myPlanet {
+  from {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+.section-1 .comet {
+  position: absolute;
+  width: 99px;
+  height: 75px;
+  background-image: url('../img/section-1/comet.png');
+  background-repeat: no-repeat;
+  right: 60px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 1450px) {
+  .section-1 {
+    padding: 30px 0 !important;
+  }
+
+  .mw-waves-btn {
+    display: block;
+    margin: 0 0 50px 30px;
+  }
+
+  .section-1 .m-t-80 {
+    margin-top: 50px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section-1 .flexbox-container {
+    flex-direction: column;
+  }
+
+  .section-1 .flexbox-container .info-block,
+  .section-1 .flexbox-container .mockup-block {
+    width: 100%;
+  }
+
+  .section-1 .elements-holder {
+    margin-top: 0;
+  }
+
+  .section-1 .flexbox-container .mockup-block {
+    display: none;
+  }
+}
+
+/* *******************************************
+ ************** Section 2 ************** *
+ ******************************************* */
+
+.section-2 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-2 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-2 h1,
+.section-2 h2,
+.section-2 h3,
+.section-2 h4,
+.section-2 h5,
+.section-2 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-2 h1,
+.titles-inverse .section-2 h2,
+.titles-inverse .section-2 h3,
+.titles-inverse .section-2 h4,
+.titles-inverse .section-2 h5,
+.titles-inverse .section-2 h6 {
+  color: @textDark;
+}
+
+.section-2 p,
+.section-2 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-2 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 3 ************** *
+ ******************************************* */
+
+.section-3 {
+  min-height: 100px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section-3 h1,
+.section-3 h2,
+.section-3 h3,
+.section-3 h4,
+.section-3 h5,
+.section-3 h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: @textDark;
+}
+
+.section-3 p,
+.section-3 span {
+  font-size: 16px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-3 p {
+  margin-bottom: 10px;
+}
+
+.section-3 .feature {
+  background-color: rgba(77, 0, 156, 0.05);
+  padding: 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  margin: 15px 0;
+}
+
+.section-3 .feature .icon {
+  width: 105px;
+  height: 105px;
+  margin: 0 auto 45px auto;
+  background: @textLight;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.section-3 .feature .icon i {
+  color: @default;
+}
+
+.section-3 .feature .icon i.material-icons {
+  font-size: 55px;
+  margin-top: 6px;
+}
+
+.section-3 .feature .icon i[class*='mw-micon-'] {
+  padding-top: 12px !important;
+  display: block !important;
+}
+
+.section-3 .feature:hover {
+  cursor: pointer;
+}
+
+.section-3 .feature:hover .icon {
+  background: @primary;
+}
+
+.section-3 .feature:hover .icon i {
+  color: @textLight;
+}
+
+/* *******************************************
+ ************** Section 4 ************** *
+ ******************************************* */
+
+.section-4 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-4 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 .left-side {
+  text-align: left;
+}
+
+.section-4 h1,
+.section-4 h2,
+.section-4 h3,
+.section-4 h4,
+.section-4 h5,
+.section-4 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-4 h1,
+.titles-inverse .section-4 h2,
+.titles-inverse .section-4 h3,
+.titles-inverse .section-4 h4,
+.titles-inverse .section-4 h5,
+.titles-inverse .section-4 h6 {
+  color: @textDark;
+}
+
+.section-4 p,
+.section-4 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-4 p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-4 .img-holder {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section-4 h1,
+  .section-4 h2,
+  .section-4 h3,
+  .section-4 h4,
+  .section-4 h5,
+  .section-4 h6 {
+    text-align: center;
+  }
+
+  .section-4 p {
+    text-align: center;
+  }
+
+  .section-4 .flexbox-container {
+    flex-direction: column-reverse;
+  }
+}
+
+/* *******************************************
+ ************** Section 5 ************** *
+ ******************************************* */
+
+.section-5 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-5 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5 .right-side {
+  text-align: right;
+}
+
+.section-5 h1,
+.section-5 h2,
+.section-5 h3,
+.section-5 h4,
+.section-5 h5,
+.section-5 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-5 h1,
+.titles-inverse .section-5 h2,
+.titles-inverse .section-5 h3,
+.titles-inverse .section-5 h4,
+.titles-inverse .section-5 h5,
+.titles-inverse .section-5 h6 {
+  color: @textDark;
+}
+
+.section-5 p,
+.section-5 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-5 p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-5 h1,
+  .section-5 h2,
+  .section-5 h3,
+  .section-5 h4,
+  .section-5 h5,
+  .section-5 h6 {
+    text-align: center;
+  }
+
+  .section-5 p {
+    text-align: center;
+  }
+
+  .section-5 .flexbox-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section-5 .img-holder {
+    margin-bottom: 30px;
+  }
+}
+
+/* *******************************************
+ ************** Section 6 ************** *
+ ******************************************* */
+
+.section-6 {
+  min-height: 100px;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4300c4+0,4d009c+100 */
+  background: @defaultGradient; /* Old browsers */
+  background: -moz-linear-gradient(top, @default 0%, @defaultGradient 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, @default 0%, @defaultGradient 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, @default 0%, @defaultGradient 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@default', endColorstr='@defaultGradient', GradientType=0); /* IE6-9 */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-6 .planet {
+  width: 100%;
+  height: 874px;
+  background-image: url('../img/section-6/planet.png');
+  margin: 0 auto;
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-size: contain;
+  /* -webkit-animation: myPlanet 15s linear infinite; !* Chrome, Safari 5 *!
+     -moz-animation: myPlanet 15s linear infinite; !* Firefox 5-15 *!
+     -o-animation: myPlanet 15s linear infinite; !* Opera 12+ *!
+     animation: myPlanet 15s linear infinite; !* Chrome, Firefox 16+, IE 10+, Safari 5 *!*/
+}
+
+@-webkit-keyframes myPlanet {
+  from {
+    -webkit-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes myPlanet {
+  from {
+    -moz-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes myPlanet {
+  from {
+    -o-transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@keyframes myPlanet {
+  from {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+.section-6 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-6 h1,
+.section-6 h2,
+.section-6 h3,
+.section-6 h4,
+.section-6 h5,
+.section-6 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+  text-align: center;
+}
+
+.section-6 p,
+.section-6 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-6 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 7 ************** *
+ ******************************************* */
+
+.section-7 {
+  min-height: 100px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section-7 h1,
+.section-7 h2,
+.section-7 h3,
+.section-7 h4,
+.section-7 h5,
+.section-7 h6 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: @textDark;
+}
+
+.section-7 p,
+.section-7 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-7 p {
+  margin-bottom: 10px;
+}
+
+.section-7 .feature {
+  background-color: #f6f6f6;
+  padding: 30px 30px 10px 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.section-7 .feature .icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 25px auto;
+  background: @default;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 40px;
+  padding-top: 12px;
+}
+
+.section-7 .feature .icon i {
+  color: @textLight;
+}
+
+.section-7 .feature .icon i.material-icons {
+  font-size: 40px;
+  margin-top: 6px;
+}
+
+.section-7 .feature .icon i[class*='mw-micon-'] {
+  padding-top: 8px;
+  display: block;
+}
+
+
+.section-7 .feature:hover .icon {
+  background: @primary;
+}
+
+.section-7 .feature:hover .icon i {
+  color: @textLight;
+}
+
+/* *******************************************
+ ************** Section 8 ************** *
+ ******************************************* */
+
+.section-8 {
+  min-height: 100px;
+  padding: 30px 0;
+  background-color: @default;
+  /*background-image: url('../img/section-8/world_map.png');*/
+  /*background-size: contain;*/
+}
+
+.section-8 .container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.section-8 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-8 .left-side {
+  text-align: justify;
+}
+
+.section-8 .img-holder {
+  align-self: flex-end;
+}
+
+.section-8 .img-holder .div-table-cell .mw-waves-btn {
+  margin: 0;
+}
+
+.section-8 .img-holder img {
+  margin-bottom: -133px;
+}
+
+.section-8 h1,
+.section-8 h2,
+.section-8 h3,
+.section-8 h4,
+.section-8 h5,
+.section-8 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: @textLight;
+}
+
+.section-8 p,
+.section-8 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-8 p {
+  margin-bottom: 15px;
+}
+
+.section-8 .features {
+  margin-bottom: 40px;
+}
+
+.section-8 .feature {
+  margin-bottom: 30px;
+}
+
+.section-8 .feature .icon,
+.section-8 .feature .label {
+  float: left;
+  color: @textLight;
+}
+
+.section-8 .feature .icon {
+  width: 30%;
+  font-size: 65px;
+}
+
+.section-8 .feature .icon i.material-icons {
+  font-size: 77px;
+}
+
+.section-8 .feature .label {
+  width: 60%;
+  padding: 10px;
+}
+
+.section-8 .feature .label .title,
+.section-8 .feature .label .count {
+  display: block;
+  text-align: left;
+}
+
+.section-8 .feature .label .title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-8 .feature .label .count {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.section-8 .feature .label .js-start-from-zero:after {
+  content: '0';
+  display: block;
+  position: relative;
+  visibility: visible;
+  margin-top: -25px;
+}
+
+.section-8 .feature .label .count[data-counter=""] {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .section-8 .flexbox-container {
+    flex-direction: column-reverse;
+  }
+
+  .section-8 .img-holder img {
+    margin-bottom: 40px;
+  }
+
+  .section-8 .features {
+    margin-bottom: 0px;
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section-8 .img-holder {
+    align-self: flex-start;
+  }
+}
+
+.section-8 .mw-waves-btn {
+  z-index: 1;
+  text-align: center;
+  top: 200px;
+  display: inline-block;
+}
+
+/* *******************************************
+ ************** Section 9 ************** *
+ ******************************************* */
+
+.section-9 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-9 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-9 h1,
+.section-9 h2,
+.section-9 h4,
+.section-9 h5,
+.section-9 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: @default;
+}
+
+.titles-inverse .section-9 h1,
+.titles-inverse .section-9 h2,
+.titles-inverse .section-9 h4,
+.titles-inverse .section-9 h5,
+.titles-inverse .section-9 h6 {
+  color: @textDark;
+}
+
+.section-9 h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: @textDark;
+}
+
+.section-9 p,
+.section-9 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-9 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 10 ************** *
+ ******************************************* */
+
+.section-10 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-10 .container {
+  /*padding: 0 10%;*/
+}
+
+.section-10 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: @textDark;
+}
+
+.section-10 p,
+.section-10 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-10 p {
+  margin-bottom: 10px;
+}
+
+.section-10 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-10 .right-side {
+  text-align: justify;
+}
+
+.section-10 .left-side {
+  text-align: justify;
+}
+
+.section-10 .img-holder {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+  .section-10 .flexbox-container {
+    flex-direction: column-reverse;
+  }
+}
+
+/* *******************************************
+ ************** Section 11 ************** *
+ ******************************************* */
+
+.section-11 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-11 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-11 h1,
+.section-11 h2,
+.section-11 h3,
+.section-11 h4,
+.section-11 h5,
+.section-11 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+}
+
+.section-11 p,
+.section-11 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-11 p {
+  margin-bottom: 10px;
+}
+
+.section-11 .btn {
+  border: 1px solid @textLight;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .section-11 .btn {
+    display: block;
+  }
+}
+
+/* *******************************************
+ ************** Section 12 ************** *
+ ******************************************* */
+
+.section-12 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-12 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: @textDark;
+}
+
+.section-12 p,
+.section-12 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-12 p {
+  margin-bottom: 10px;
+}
+
+.section-12 .left-side,
+.section-12 .right-side {
+  text-align: center;
+  width: 35%;
+}
+
+.section-12 .img-holder {
+  text-align: center;
+  width: 30%;
+}
+
+.section-12 .material-icons {
+  font-size: 34px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-12 .flexbox-container {
+    -webkit-flex-flow: wrap row;
+    flex-flow: wrap row;
+  }
+
+  .section-12 .img-holder {
+    order: 1;
+    width: 100%;
+  }
+
+  .section-12 .left-side {
+    order: 2;
+    width: 48%;
+  }
+
+  .section-12 .right-side {
+    order: 3;
+    width: 48%;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+  .section-12 .left-side, .section-12 .right-side {
+    width: 100%;
+  }
+
+}
+
+.section-12 .feature {
+  margin: 40px 0 40px 0;
+  position: relative;
+}
+
+.section-12 .feature .icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 45px auto;
+  background: @default;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 35px;
+  padding-top: 16px;
+  position: absolute;
+}
+
+.section-12 .feature .icon i {
+  color: @textLight;
+}
+
+.section-12 .feature:hover {
+  cursor: pointer;
+}
+
+.section-12 .feature:hover .icon {
+  background: @primary;
+}
+
+.section-12 .feature:hover .icon i {
+  color: @textLight;
+}
+
+.section-12 .feature .text {
+  text-align: left;
+  padding-left: 100px;
+}
+
+/* *******************************************
+ ************** Section 13 ************** *
+ ******************************************* */
+
+.section-13 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: #f6f6f6;
+}
+
+.section-13 .container.text {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-13 h1,
+.section-13 h2,
+.section-13 h3,
+.section-13 h4,
+.section-13 h5,
+.section-13 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-13 h1,
+.titles-inverse .section-13 h2,
+.titles-inverse .section-13 h3,
+.titles-inverse .section-13 h4,
+.titles-inverse .section-13 h5,
+.titles-inverse .section-13 h6 {
+  color: @textDark;
+}
+
+.section-13 p,
+.section-13 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-13 p {
+  margin-bottom: 10px;
+}
+
+.section-13 .slider-wrapper {
+  max-width: 100%;
+}
+
+/* *******************************************
+ ************** Section 14 ************** *
+ ******************************************* */
+
+.section-14 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: @default;
+}
+
+.section-14 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-14 h1,
+.section-14 h2,
+.section-14 h3,
+.section-14 h4,
+.section-14 h5,
+.section-14 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+}
+
+.section-14 p,
+.section-14 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-14 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 15 ************** *
+ ******************************************* */
+
+.section-15 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-15 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-15 .img-holder {
+  margin-bottom: 25px;
+}
+
+.section-15 .right-side {
+}
+
+.section-15 h1,
+.section-15 h2,
+.section-15 h3,
+.section-15 h4,
+.section-15 h5,
+.section-15 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-15 h1,
+.titles-inverse .section-15 h2,
+.titles-inverse .section-15 h3,
+.titles-inverse .section-15 h4,
+.titles-inverse .section-15 h5,
+.titles-inverse .section-15 h6 {
+  color: @textDark;
+}
+
+.section-15 p,
+.section-15 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-15 p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-15 h1,
+  .section-15 h2,
+  .section-15 h3,
+  .section-15 h4,
+  .section-15 h5,
+  .section-15 h6 {
+    text-align: center;
+  }
+
+  .section-15 p {
+    text-align: center;
+  }
+
+  .section-15 .flexbox-container {
+    flex-direction: column;
+  }
+
+  .section-15 .right-side {
+    width: 100%;
+  }
+}
+
+/* *******************************************
+ ************** Section 16 ************** *
+ ******************************************* */
+
+.section-16 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-16 h1,
+.section-16 h2,
+.section-16 h3,
+.section-16 h4,
+.section-16 h5,
+.section-16 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 70px;
+  color: @default;
+  text-align: center;
+}
+
+.titles-inverse .section-16 h1,
+.titles-inverse .section-16 h2,
+.titles-inverse .section-16 h3,
+.titles-inverse .section-16 h4,
+.titles-inverse .section-16 h5,
+.titles-inverse .section-16 h6 {
+  color: @textDark;
+}
+
+.section-16 p,
+.section-16 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-16 p {
+  margin-bottom: 10px;
+}
+
+.section-16 .box-info .title {
+  margin-bottom: 35px;
+}
+
+.section-16 .box-info .title span,
+.section-16 .box-info .title i,
+.section-16 .box-info .title {
+  color: @default;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section-16 .box-info .title i {
+  float: left;
+  margin-right: 7px;
+  margin-left: -5px;
+  font-size: 26px;
+  margin-top: -4px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-16 .box-info {
+    margin-bottom: 30px;
+  }
+
+  .section-16 .box-info .title span, .section-16 .box-info .title i, .section-16 .box-info .title {
+    margin-bottom: 15px;
+  }
+}
+
+/* *******************************************
+ ************** Section 17 ************** *
+ ******************************************* */
+
+.section-17 {
+  min-height: 100px;
+}
+
+.section-17 .slider-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+}
+
+.section-17 h1,
+.section-17 h2,
+.section-17 h3,
+.section-17 h4,
+.section-17 h5,
+.section-17 h6 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: @textLight;
+}
+
+.section-17 p,
+.section-17 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-17 p {
+  margin-bottom: 10px;
+}
+
+.home-slider .slide .img-holder {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.home-slider .slide .info-holder {
+  width: 35%;
+  position: absolute;
+  top: 30%;
+  z-index: 999;
+}
+
+.home-slider .slide .additional-img {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+
+.home-slider .slide .additional-img.left {
+  left: 5%;
+}
+
+.home-slider .slide .additional-img.right {
+  right: 5%;
+}
+
+.home-slider .slide .info-holder.left {
+  left: 15%;
+}
+
+.home-slider .slide .info-holder.right {
+  right: 15%;
+  text-align: left !important;
+
+}
+
+.home-slider .slick-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 4;
+  font-size: 0;
+  border: 0;
+  background: none;
+  display: none !important;
+}
+
+.home-slider:hover .slick-arrow {
+  display: block !important;
+}
+
+.home-slider .slick-arrow:before {
+  font-family: FontAwesome;
+  color: @textLight;
+  display: block;
+  font-size: 20px;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.home-slider .slick-next {
+  right: 5%;
+}
+
+.home-slider .slick-next:before {
+  content: '\f054';
+}
+
+.home-slider .slick-prev {
+  left: 5%;
+}
+
+.home-slider .slick-prev:before {
+  content: '\f053';
+}
+
+.home-slider .slick-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-slider .slick-dots li {
+  display: inline;
+  font-size: 0px;
+  margin: 0 5px;
+}
+
+.home-slider .slick-dots li button {
+  border: 0;
+  height: 14px;
+  width: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  background: #cfcfcf;
+}
+
+.home-slider .slick-dots li.slick-active button {
+  background: @default;
+}
+
+@media screen and (max-width: 1366px) {
+  .home-slider .slide .img-holder {
+    max-height: 550px;
+  }
+
+  .home-slider .slide .info-holder {
+    width: 40%;
+  }
+
+  .home-slider .slick-dots {
+    margin: 30px 0;
+  }
+
+  .section-17 h1,
+  .section-17 h2,
+  .section-17 h3,
+  .section-17 h4,
+  .section-17 h5,
+  .section-17 h6 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .section-17 p,
+  .section-17 span {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home-slider .slide .img-holder {
+    max-height: 500px;
+  }
+
+  .home-slider .slide .info-holder {
+    width: 50%;
+  }
+
+  .home-slider .slide .additional-img {
+    width: 50%;
+    height: 80%;
+  }
+
+  .home-slider .slide .additional-img img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+  }
+
+  .home-slider .slide .additional-img.left {
+    left: 2%;
+  }
+
+  .home-slider .slide .additional-img.right {
+    right: 2%;
+  }
+
+  .home-slider .slide .info-holder.left {
+    left: 2%;
+  }
+
+  .home-slider .slide .info-holder.right {
+    right: 2%;
+  }
+
+  .section-17 h1,
+  .section-17 h2,
+  .section-17 h3,
+  .section-17 h4,
+  .section-17 h5,
+  .section-17 h6 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .section-17 p,
+  .section-17 span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-slider .slide .info-holder {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+
+  }
+
+  .home-slider .slide .additional-img {
+    width: 90%;
+    margin: 0 auto;
+    bottom: 0;
+  }
+
+  .section-17 h1,
+  .section-17 h2,
+  .section-17 h3,
+  .section-17 h4,
+  .section-17 h5,
+  .section-17 h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .section-17 p,
+  .section-17 span {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+/* *******************************************
+ ************** Section 18 ************** *
+ ******************************************* */
+
+.section-18 {
+  min-height: 100px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section-18 h1,
+.section-18 h2,
+.section-18 h3,
+.section-18 h4,
+.section-18 h5,
+.section-18 h6 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: @textDark;
+}
+
+.section-18 p,
+.section-18 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-18 p {
+  margin-bottom: 10px;
+}
+
+.section-18 .feature {
+  padding: 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  margin: 15px 0;
+}
+
+.section-18 .feature .icon {
+  width: 105px;
+  height: 105px;
+  margin: 0 auto 45px auto;
+  background: @textLight;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 45px;
+  padding-top: 20px;
+  background: @default;
+}
+
+.section-18 .feature .icon i {
+  color: @textLight;
+}
+
+.section-18 .feature .icon i.material-icons {
+  font-size: 55px;
+
+  margin-top: 6px;
+}
+
+.section-18 .feature:hover {
+  cursor: pointer;
+}
+
+.section-18 .feature:hover .icon {
+  background: @primary;
+}
+
+.section-18 .feature:hover .icon i {
+  color: @textLight;
+}
+
+/* *******************************************
+ ************** Section 19 ************** *
+ ******************************************* */
+
+.section-19 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: rgba(61, 0, 180, 0.05);
+}
+
+.section-19 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-19 .left-side {
+  text-align: left;
+}
+
+.section-19 h1,
+.section-19 h2,
+.section-19 h3,
+.section-19 h4,
+.section-19 h5,
+.section-19 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @default;
+}
+
+.titles-inverse .section-19 h1,
+.titles-inverse .section-19 h2,
+.titles-inverse .section-19 h3,
+.titles-inverse .section-19 h4,
+.titles-inverse .section-19 h5,
+.titles-inverse .section-19 h6 {
+  color: @textDark;
+}
+
+.section-19 p,
+.section-19 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-19 p {
+  margin-bottom: 10px;
+}
+
+.section-19 .prices .price-holder {
+  margin: 20px 0;
+  border-right: 1px solid @default;
+  display: inline-block;
+  padding: 0 35px;
+}
+
+@media screen and (min-width: 480px) {
+  .section-19 .prices .price-holder:nth-child(1),
+  .section-19 .prices .price-holder:nth-child(4),
+  .section-19 .prices .price-holder:nth-child(7),
+  .section-19 .prices .price-holder:nth-child(10),
+  .section-19 .prices .price-holder:nth-child(13),
+  .section-19 .prices .price-holder:nth-child(16) {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-19 .prices .price-holder {
+    padding: 0 20px;
+  }
+}
+
+.section-19 .prices .price-holder:last-of-type {
+  border-right: 0;
+}
+
+.section-19 .prices .price-holder .model {
+  font-size: 48px;
+  font-weight: bold;
+  color: @textDark;
+}
+
+.section-19 .prices .price-holder .model span {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.section-19 .prices .price-holder .price {
+  font-size: 16px;
+  color: #a8a8a8;
+}
+
+.section-19 .btn {
+  min-width: 150px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-19 h1,
+  .section-19 h2,
+  .section-19 h3,
+  .section-19 h4,
+  .section-19 h5,
+  .section-19 h6 {
+    text-align: center;
+  }
+
+  .section-19 p {
+    text-align: center;
+  }
+
+  .section-19 .flexbox-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section-19 .img-holder {
+    margin-bottom: 30px;
+  }
+}
+
+/* *******************************************
+ ************** Section 20 ************** *
+ ******************************************* */
+
+.section-20 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-20 .flexbox-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-20 .left-side {
+  text-align: left;
+}
+
+.section-20 h1,
+.section-20 h2,
+.section-20 h3,
+.section-20 h4,
+.section-20 h5,
+.section-20 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: @textDark;
+}
+
+.section-20 p,
+.section-20 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textDark;
+}
+
+.section-20 p {
+  margin-bottom: 15px;
+}
+
+.section-20 .img-holder {
+  padding: 70px 0 0 70px;
+  text-align: left;
+  background: none;
+}
+
+.section-20 .img-holder .decoration {
+  width: 260px;
+  height: 260px;
+  background: fade(@default, 83%);
+  position: absolute;
+  margin: -70px 0 0 -70px;
+}
+
+.section-20 .mw-waves-btn {
+  z-index: 1;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 180px;
+}
+
+.section-20 .img-holder img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.section-20 .img-holder .img {
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+}
+
+.section-20 .img-holder .img:after {
+  position: absolute;
+  content: '';
+  display: block;
+  opacity: 0.1;
+  background: @dark;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.section-20 .features .feature {
+  padding: 10px 0;
+  display: inline-block;
+  width: 32%;
+}
+
+.section-20 .features .count {
+  font-size: 36px;
+  color: @default;
+  font-weight: bold;
+}
+
+.section-20 .features .title {
+  font-size: 18px;
+  color: @textDark;
+  font-weight: bold;
+  min-height: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-20 h1,
+  .section-20 h2,
+  .section-20 h3,
+  .section-20 h4,
+  .section-20 h5,
+  .section-20 h6 {
+    text-align: center;
+  }
+
+  .section-20 p {
+    text-align: center;
+  }
+
+  .section-20 .flexbox-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-20 .mw-waves-btn {
+    margin-left: 169px;
+    margin-top: 157px;
+  }
+
+  .section-20 .features .feature {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* *******************************************
+ ************** Section 21 ************** *
+ ******************************************* */
+
+.section-21 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-21 h1,
+.section-21 h2,
+.section-21 h3,
+.section-21 h4,
+.section-21 h5,
+.section-21 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: @textLight;
+}
+
+.section-21 p,
+.section-21 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-21 p {
+  margin-bottom: 10px;
+}
+
+.section-21 .leave-message-holder {
+  padding: 35px 50px;
+  background-color: @textLight;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.section-21 .leave-message-holder h4,
+.section-21 .leave-message-holder p {
+  text-align: center;
+  color: @textDark;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-21 .leave-message-holder {
+    margin-top: 50px;
+  }
+
+  .section-21 .row > div:first-of-type {
+    text-align: center;
+  }
+}
+
+/* *******************************************
+ ************** Section 22 ************** *
+ ******************************************* */
+
+.section-22 {
+  min-height: 100px;
+  padding: 30px 0;
+  background-color: #f5f5f5;
+  background-image: url('../img/section-22/bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-origin: content-box;
+}
+
+.section-22 h3 {
+  font-size: 20px;
+  color: @textDark;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+
+.section-22 p,
+.section-22 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: #606060;
+}
+
+.section-22 .feature {
+  padding: 15px 30px;
+  margin: 15px 0;
+  border-bottom: 5px solid transparent;
+  background: #f5f5f5;
+}
+
+.section-22 .feature:hover {
+  background: @textLight;
+  border-bottom: 5px solid @primary;
+}
+
+.section-22 .feature a {
+  display: block;
+  text-decoration: none;
+}
+
+.section-22 .feature .desc {
+  min-height: 90px;
+}
+
+.section-22 .feature .icon {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 45px 0;
+  font-size: 25px;
+}
+
+.section-22 .feature .icon i {
+  color: @default;
+}
+
+.section-22 .feature .icon i.material-icons {
+  font-size: 35px;
+  margin-top: 6px;
+}
+
+.section-22 .feature:hover {
+  cursor: pointer;
+}
+
+.section-22 .feature:hover .icon i {
+  color: @primary;
+}
+
+.section-22 .feature .label-read-more {
+  color: @primary;
+  position: absolute;
+  right: 60px;
+  font-size: 14px;
+  font-weight: bold;
+  display: none;
+  top: 45px;
+}
+
+.section-22 .feature:hover .label-read-more {
+  display: block;
+}
+
+.section-22 .gradient-colors {
+  max-width: 380px;
+  height: 380px;
+  padding: 70px;
+  margin-top: -120px;
+  background: @primary;
+}
+
+.section-22 .gradient-colors,
+.section-22 .gradient-colors p {
+  line-height: 54px;
+  font-size: 40px;
+  font-weight: bold;
+  color: @textLight;
+}
+
+/*.section-22 .gradient-colors {
+    -webkit-animation: gradient-background 25s cubic-bezier(1, 0, 0, 1) infinite;
+    animation: gradient-background 25s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+@-webkit-keyframes gradient-background {
+    0% {
+        background-color: #ff3648;
+    }
+    13% {
+        background-color: #ff36ac;
+    }
+    26% {
+        background-color: #d236ff;
+    }
+    39% {
+        background-color: #4e36ff;
+    }
+    52% {
+        background-color: #36b1ff;
+    }
+    65% {
+        background-color: #36ff6f;
+    }
+    78% {
+        background-color: #eeff36;
+    }
+    91% {
+        background-color: #ffac36;
+    }
+    100% {
+        background-color: #ff3636;
+    }
+}
+
+@keyframes gradient-background {
+    0% {
+        background-color: #ff3648;
+    }
+    13% {
+        background-color: #ff36ac;
+    }
+    26% {
+        background-color: #d236ff;
+    }
+    39% {
+        background-color: #4e36ff;
+    }
+    52% {
+        background-color: #36b1ff;
+    }
+    65% {
+        background-color: #36ff6f;
+    }
+    78% {
+        background-color: #eeff36;
+    }
+    91% {
+        background-color: #ffac36;
+    }
+    100% {
+        background-color: #ff3636;
+    }
+}*/
+
+/* *******************************************
+ ************** Section 23 ************** *
+ ******************************************* */
+
+.section-23 {
+  min-height: 100px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section-23 h1,
+.section-23 h2,
+.section-23 h3,
+.section-23 h4,
+.section-23 h5,
+.section-23 h6 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: @textDark;
+}
+
+.section-23 .title {
+  min-height: 90px;
+}
+
+.section-23 .title span {
+  font-size: 18px;
+  line-height: 26px;
+  color: #606060;
+  display: block;
+  font-weight: bold;
+}
+
+.section-23 p,
+.section-23 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: #606060;
+}
+
+.section-23 p {
+  margin-bottom: 10px;
+}
+
+.section-23 .feature {
+  padding: 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  margin: 15px 0;
+}
+
+.section-23 .feature .icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 25px auto;
+  background: @textLight;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 25px;
+  padding-top: 15px;
+  background: @default;
+}
+
+.section-23 .feature .icon i {
+  color: @textLight;
+}
+
+.section-23 .feature .icon i.material-icons {
+  font-size: 35px;
+
+  margin-top: 6px;
+}
+
+.section-23 .feature:hover {
+  cursor: pointer;
+}
+
+.section-23 .feature:hover .icon {
+  background: @primary;
+}
+
+.section-23 .feature:hover .icon i {
+  color: @textLight;
+}
+
+/* *******************************************
+ ************** Section 24 ************** *
+ ******************************************* */
+
+.section-24 {
+  min-height: 100px;
+  padding: 30px 0;
+  background-color: @default;
+}
+
+.section-24 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.section-24 h1,
+.section-24 h2,
+.section-24 h3,
+.section-24 h4,
+.section-24 h5,
+.section-24 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: @textLight;
+}
+
+.section-24 p,
+.section-24 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-24 p {
+  margin-bottom: 15px;
+}
+
+/* *******************************************
+ ************** Section 25 ************** *
+ ******************************************* */
+
+.section-25 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: #f5f5f5;
+}
+
+.section-25 .container {
+  padding: 0 5%;
+  text-align: center;
+}
+
+.section-25 h1,
+.section-25 h2,
+.section-25 h4,
+.section-25 h5,
+.section-25 h6 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: @default;
+}
+
+.titles-inverse .section-25 h1,
+.titles-inverse .section-25 h2,
+.titles-inverse .section-25 h4,
+.titles-inverse .section-25 h5,
+.titles-inverse .section-25 h6 {
+  color: @textDark;
+}
+
+.section-25 h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: @textDark;
+}
+
+.section-25 p,
+.section-25 span {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  color: @textDark;
+}
+
+.section-25 p {
+  margin-bottom: 10px;
+}
+
+.section-25 .imgs-holder .img {
+  background-size: cover;
+  width: 100%;
+  min-height: 320px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-25 .imgs-holder .img {
+    margin-bottom: 25px;
+  }
+}
+
+/* *******************************************
+ ************** Section 26 ************** *
+ ******************************************* */
+
+.section-26 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-26 .container {
+  padding: 0 10%;
+  text-align: center;
+}
+
+.section-26 h1,
+.section-26 h2,
+.section-26 h3,
+.section-26 h4,
+.section-26 h5,
+.section-26 h6 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: @textLight;
+}
+
+.section-26 p,
+.section-26 span {
+  font-size: 30px;
+  line-height: 36px;
+  color: @textLight;
+}
+
+.section-26 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 27 ************** *
+ ******************************************* */
+
+.section-27 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: #f5f5f5;
+}
+
+.section-27 h3 {
+  font-size: 36px;
+  color: @textDark;
+}
+
+.section-27 h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: @textDark;
+  margin-bottom: 30px;
+}
+
+.section-27 h5 {
+  font-size: 36px;
+  font-weight: bold;
+  color: @textLight;
+  text-align: center;
+}
+
+.section-27 p,
+.section-27 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-27 p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-27 .feature {
+  padding: 30px;
+  margin: 0 0 30px 0;
+  background: @default;
+}
+
+.section-27 .feature .icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto 45px auto;
+
+  font-size: 40px;
+}
+
+.section-27 .feature .icon i {
+  color: @textLight;
+}
+
+.section-27 .feature .icon i.material-icons {
+  font-size: 50px;
+  margin-top: 6px;
+}
+
+.section-27 .feature:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .section-27 h3,
+  .section-27 h4 {
+    text-align: center;
+  }
+}
+
+/* *******************************************
+ ************** Section 28 ************** *
+ ******************************************* */
+
+.section-28 {
+  min-height: 100px;
+  padding: 30px 0;
+}
+
+.section-28 h4 {
+  font-size: 42px;
+  color: @textDark;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-28 h5 {
+  font-size: 42px;
+  font-weight: bold;
+  color: @textDark;
+  text-align: center;
+}
+
+.section-28 p,
+.section-28 span {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.section-28 p {
+  margin-bottom: 10px;
+}
+
+/* *******************************************
+ ************** Section 29 ************** *
+ ******************************************* */
+
+.section-29 {
+  min-height: 100px;
+  padding: 30px 0;
+  background: #2f303c;
+}
+
+.section-29 .container {
+  /*padding: 0 5%;*/
+}
+
+.section-29 h1,
+.section-29 h2,
+.section-29 h3,
+.section-29 h4,
+.section-29 h5,
+.section-29 h6 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: @textLight;
+}
+
+.section-29 p,
+.section-29 span {
+  color: @textLight;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.section-29 p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .section-29 h1,
+  .section-29 h2,
+  .section-29 h3,
+  .section-29 h4,
+  .section-29 h5,
+  .section-29 h6 {
+    text-align: center;
+  }
+
+  .section-29 p {
+    text-align: center;
+  }
+}
+
+/* *******************************************
+ ************** Section 30 ************** *
+ ******************************************* */
+.section-30 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4300c4+0,4d009c+100 */
+  background: @default; /* Old browsers */
+  background: -moz-linear-gradient(top, @default 0%, #4d009c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, @default 0%, #4d009c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, @default 0%, #4d009c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@default', endColorstr='#4d009c', GradientType=0); /* IE6-9 */
+
+  min-height: 100px;
+  padding: 30px 0;
+  overflow-x: hidden;
+}
+
+.section-30 h1 {
+  font-size: 150px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+}
+
+.section-30 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: @textLight;
+}
+
+.section-30 p,
+.section-30 span {
+  font-size: 18px;
+  line-height: 26px;
+  color: @textLight;
+}
+
+.section-30 p {
+  margin-bottom: 10px;
+}
+
+.section-30 .info-block {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.section-30 .mockup-block {
+  width: 100%;
+  float: left;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.section-30 .mockup-block img {
+  position: relative;
+}
+
+.section-30 .elements-holder {
+  margin-top: 0px;
+  display: inline-block;
+  height: 100%;
+}
+
+.section-30 .mockup-block .planet {
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.section-30 .comet {
+  position: absolute;
+  width: 99px;
+  height: 75px;
+  background-image: url('../img/section-1/comet.png');
+  background-repeat: no-repeat;
+  margin-top: -77px;
+  margin-left: 220px;
+}
+
+@media screen and (max-width: 1450px) {
+  .section-30 {
+    padding: 30px 0 !important;
+  }
+
+  .section-30 .m-t-80 {
+    margin-top: 50px !important;
+  }
+}
+
+/* *******************************************
+ ************** RESPONSIVE ************** *
+ ******************************************* */
+
+@media screen and (max-width: 1366px) {
+  .section-1 h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .section-1 p,
+  .section-1 span {
+    font-size: 18px;
+  }
+
+  .section-2 h1,
+  .section-2 h2,
+  .section-2 h3,
+  .section-2 h4,
+  .section-2 h5,
+  .section-2 h6,
+  .section-4 h1,
+  .section-4 h2,
+  .section-4 h3,
+  .section-4 h4,
+  .section-4 h5,
+  .section-4 h6,
+  .section-5 h1,
+  .section-5 h2,
+  .section-5 h3,
+  .section-5 h4,
+  .section-5 h5,
+  .section-5 h6,
+  .section-6 h1,
+  .section-6 h2,
+  .section-6 h3,
+  .section-6 h4,
+  .section-6 h5,
+  .section-6 h6,
+  .section-9 h1,
+  .section-9 h2,
+  .section-9 h3,
+  .section-9 h4,
+  .section-9 h5,
+  .section-9 h6,
+  .section-11 h1,
+  .section-11 h2,
+  .section-11 h3,
+  .section-11 h4,
+  .section-11 h5,
+  .section-11 h6,
+  .section-13 h1,
+  .section-13 h2,
+  .section-13 h3,
+  .section-13 h4,
+  .section-13 h5,
+  .section-13 h6,
+  .section-14 h1,
+  .section-14 h2,
+  .section-14 h3,
+  .section-14 h4,
+  .section-14 h5,
+  .section-14 h6,
+  .section-16 h1,
+  .section-16 h2,
+  .section-16 h3,
+  .section-16 h4,
+  .section-16 h5,
+  .section-16 h6,
+  .section-19 h1,
+  .section-19 h2,
+  .section-19 h3,
+  .section-19 h4,
+  .section-19 h5,
+  .section-19 h6 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+
+  .section-3 h1,
+  .section-3 h2,
+  .section-3 h3,
+  .section-3 h4,
+  .section-3 h5,
+  .section-3 h6 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .section-7 h1,
+  .section-7 h2,
+  .section-7 h3,
+  .section-7 h4,
+  .section-7 h5,
+  .section-7 h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section-8 h1,
+  .section-8 h2,
+  .section-8 h3,
+  .section-8 h4,
+  .section-8 h5,
+  .section-8 h6 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section-1 h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .section-1 p,
+  .section-1 span {
+    font-size: 16px;
+  }
+
+  .section-2 h1,
+  .section-2 h2,
+  .section-2 h3,
+  .section-2 h4,
+  .section-2 h5,
+  .section-2 h6,
+  .section-4 h1,
+  .section-4 h2,
+  .section-4 h3,
+  .section-4 h4,
+  .section-4 h5,
+  .section-4 h6,
+  .section-5 h1,
+  .section-5 h2,
+  .section-5 h3,
+  .section-5 h4,
+  .section-5 h5,
+  .section-5 h6,
+  .section-6 h1,
+  .section-6 h2,
+  .section-6 h3,
+  .section-6 h4,
+  .section-6 h5,
+  .section-6 h6,
+  .section-9 h1,
+  .section-9 h2,
+  .section-9 h3,
+  .section-9 h4,
+  .section-9 h5,
+  .section-9 h6,
+  .section-11 h1,
+  .section-11 h2,
+  .section-11 h3,
+  .section-11 h4,
+  .section-11 h5,
+  .section-11 h6,
+  .section-13 h1,
+  .section-13 h2,
+  .section-13 h3,
+  .section-13 h4,
+  .section-13 h5,
+  .section-13 h6,
+  .section-14 h1,
+  .section-14 h2,
+  .section-14 h3,
+  .section-14 h4,
+  .section-14 h5,
+  .section-14 h6,
+  .section-16 h1,
+  .section-16 h2,
+  .section-16 h3,
+  .section-16 h4,
+  .section-16 h5,
+  .section-16 h6 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .section-3 h1,
+  .section-3 h2,
+  .section-3 h3,
+  .section-3 h4,
+  .section-3 h5,
+  .section-3 h6 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .section-7 h1,
+  .section-7 h2,
+  .section-7 h3,
+  .section-7 h4,
+  .section-7 h5,
+  .section-7 h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section-8 h1,
+  .section-8 h2,
+  .section-8 h3,
+  .section-8 h4,
+  .section-8 h5,
+  .section-8 h6 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*
+.row-eq-height > [class^=col] {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-eq-height > [class^=col]:last-of-type div {
+    margin: 10px;
+}
+
+.row-eq-height > [class^=col]:last-of-type div:first-of-type {
+    margin-top: 0;
+}
+
+.row-eq-height > [class^=col]:last-of-type div:last-of-type {
+    margin-bottom: 0;
+}
+
+.row-eq-height > [class^=col]:first-of-type .black {
+    flex-grow: 1;
+}*/
