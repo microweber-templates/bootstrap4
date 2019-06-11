@@ -7,6 +7,7 @@ $config['version'] = 1.0;
 $config['url'] = "http://microweber.com";
 $config['standalone_module_skins'] = true;
 $config['is_default'] = 0; //if you set this parameter the template will be selected on the install screen
+$config['framework'] = 'bootstrap4';
 
 //Layouts Padding Top & Bottom classes definiton
 $config['layouts_css_classes'] = [];
